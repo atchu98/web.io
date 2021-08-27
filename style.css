@@ -26,7 +26,7 @@ body {
     
     width: 85%;
     margin: auto;
-    padding: 35px 0;
+    padding: 40px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,7 +106,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-button {
+/*button {
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -132,7 +132,7 @@ span{
     transition: 0.5s;
 
 
-}
+}*/
 
 button:hover span {
     
@@ -169,7 +169,7 @@ footer {
 .left {
     left: 0;
     background-color: azure;
-    ima
+    
 }
 
 .right {
@@ -187,5 +187,32 @@ footer {
     text-align: center;
 }
 .container{
+    color: white;
+}
+.box-1 {
+    /*background-color: whitesmoke;*/
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;
+    border-right: 5px red solid;
+    border-style: ridge;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+}
+.box-1 h4 
+{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.box-2 {
+    /*background-color: wheat;*/
+    border: 5px rebeccapurple solid;
+    padding: 20px;
+    margin: 10px;
     color: white;
 }
