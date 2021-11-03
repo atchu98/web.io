@@ -25,3 +25,8 @@ $(document).ready(function () {
 		}]
 	});
 });
+
+function ChangeStyle(obj, oldStyle, newStyle) {
+	obj.classList.remove(oldStyle);
+	obj.classList.add(newStyle);
+}
